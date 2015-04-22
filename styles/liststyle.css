@@ -1,0 +1,142 @@
+#fixit {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+    float: left;
+    max-height: 75px;
+    max-width:75px;
+    text-align: center;
+    box-shadow: 1px 4px 10px #1A1515;
+}
+#fixclear {
+    clear:both;
+}
+h1 {
+    left:0;
+    top:0;
+    text-align: center;
+    width:100%;
+    background-color: #000;
+    color:white;
+    font-size: 24px;
+    padding:10px;
+}
+#pageview {
+    background-color:silver;
+    margin:15px;
+    padding: 50px;
+    color:#fff;
+    box-shadow: -1px -10px 10px #fff;
+    border-radius: 40px;
+}
+.member {
+    padding:10px;
+    color:black;
+    border-radius: 2px;
+}
+body {
+    background-color: #1A1515;
+}
+.thumbnail {
+    box-shadow:1px 5px 10px #ffaffa;
+    min-height: 240px;
+}
+.form-input {
+    color:black;
+}
+#psummary a {
+    font-size: 1.4em;
+}
+#psummary p {
+    color:rgba(123, 15, 240, 0.85);
+}
+.pagls {
+    text-align: center;
+    padding:20px;
+    margin:20px;
+    padding-bottom: 0px;
+}
+.pagls .btn-lg {
+    text-align: center;
+    padding-left:30px;
+    margin:10px;
+    padding-right:30px;
+}
+/*
+        this is file upload css
+
+*/
+ table {
+    border-collapse: collapse;
+}
+.percent {
+    position: absolute;
+    width: 300px;
+    height: 14px;
+    z-index: 1;
+    text-align: center;
+    font-size: 0.8em;
+    color: white;
+}
+.progress-bar {
+    width: 300px;
+    height: 14px;
+    border-radius: 10px;
+    border: 1px solid #CCC;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#6666cc), to(#4b4b95));
+    border-image: initial;
+}
+.uploaded {
+    padding: 0;
+    height: 14px;
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#66cc00), to(#4b9500));
+    border-image: initial;
+}
+.dropbox {
+    width: 15em;
+    height: 3em;
+    border: 2px solid #DDD;
+    border-radius: 8px;
+    background-color: #FEFFEC;
+    text-align: center;
+    color: #BBB;
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+}
+.dropbox span {
+    margin-top: 0.9em;
+    display: block;
+}
+.dropbox.not-available {
+    background-color: #F88;
+}
+.dropbox.over {
+    background-color: #bfb;
+}
+
+
+
+
+
+
+/* file upload css end*/
+@media (max-width: 640px) {
+    body, .container-fluid, #pageview {
+        max-width:100%;
+    }
+    #pageview {
+        padding:2px;
+        margin:2px;
+    }
+    #searchTab {
+        padding:5px;
+        padding-top:10px;
+        margin:5px;
+    }
+    #searchTab .col-md-6 {
+        padding:3px;
+        margin:3px;
+        text-align: left;
+    }
+}
